@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'jallalla';
+    src: url('../font/SweetHipster.ttf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #f4f4f4;
+  font-family: arial;
+}
+
+.titulo-color{
+  color: #6b6b6b;
+}
+
+/****************/
+/* HEADER*/
+.nav-bg{
+  background: #fff;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+.navbar-brand h1{
+  font-size: 2em;
+  color: #000;
+  letter-spacing: 10px;
+  margin-bottom: 0;
+  font-family: 'jallalla';
+}
+
+.nav-buscador input{
+  width: 400px;
+  border: 2px solid #a5a5a5;
+  border-radius: 8px;
+  padding: 4px 4px 4px 20px;
+}
+
+.nav-item i{
+  color: #6b6b6b;
+}
+
+.nav-text{
+  color: #6b6b6b;
+}
+
+.fa-bars{
+  color:#000;
+  font-size: 2em;
+}
+/* FIN HEADER*/
+/****************/
+
+/****************/
+/* PERFIL*/
+.perfil{
+  max-width: 960px;
+  margin: auto;
+}
+
+.perfil-titulo h2{
+    border-bottom: 2px solid #a5a5a5;
+}
+
+.perfil-titulo h2{
+  text-align: center;
+  padding: 30px 0px;
+  color: #6b6b6b;
+}
+
+.d-perfil{
+    border-bottom: 2px solid #a5a5a5;
+    margin-bottom: 20px;
+}
+
+.dp-informacion{
+  padding: 30px 0px;
+}
+
+.dp-informacion div ul li{
+  list-style: none;
+  color: #6b6b6b;
+  letter-spacing: 4px;
+}
+
+.tl-posts{
+  overflow: hidden;
+  text-align: center;
+}
+
+.tl-post{
+  float: left;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.tl-img{
+  width: 400px;
+  text-align: center;
+}
+.tl-img img{
+  width: 400px;
+  text-align: center;
+}
+
+.tl-buttons{
+  overflow: hidden;
+  background: #fff;
+}
+
+.tl-buttons div{
+ float:left;
+ width: 50%;
+ text-align: center;
+ padding: 10px 0px;
+}
+
+.tl-buttons div a .far{
+  font-size: 2em;
+}
+
+.tl-buttons div a{
+  color: #000;
+  text-decoration: none;
+}
+
+.contactos a{
+  color:#000;
+  font-weight: bold;
+  font-size: 1.5em;
+
+}
+
+.contactos a:hover{
+  text-decoration: none;
+}
+
+
+/* FIN PERFIL*/
+/****************/
+
+/****************/
+/* EXPLORAR*/
+.explorar{
+  max-width: 960px;
+  margin: auto;
+}
+
+.explorar-titulo h2{
+    border-bottom: 2px solid #a5a5a5;
+}
+
+.explorar-titulo h2{
+  text-align: center;
+  padding: 30px 0px;
+  color: #6b6b6b;
+}
+
+.e-perfiles{
+    border-bottom: 2px solid #a5a5a5;
+    margin-bottom: 20px;
+}
+.e-perfiles .container .row .col{
+  overflow: hidden;
+}
+
+.e-perfil{
+  float: left;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+
+
+.e-tl-buttons{
+  overflow: hidden;
+  background: #fff;
+}
+
+.e-tl-buttons div{
+ float:left;
+ width: 100%;
+ text-align: center;
+ padding: 10px 0px;
+}
+
+.e-tl-buttons div .far{
+  font-size: 2em;
+}
+
+/* FIN EXPLORAR*/
+/****************/
+
+/****************/
+/* LOGIN*/
+
+.login{
+  background: #fff;
+  border-radius: 10px;
+  border:1px solid #a5a5a5;
+  padding: 10px;
+  color: #6b6b6b;
+}
+/* FIN LOGIN*/
+/****************/
+
+/****************/
+/* REGISTRO*/
+
+.registrarse{
+  background: #fff;
+  border-radius: 10px;
+  border: 0.5px solid #a5a5a5;
+  padding: 10px;
+  color: #6b6b6b;
+}
+/* FIN REGISTRO*/
+/****************/
+
+/****************/
+/* TIMELINE*/
+
+
+.tl-form{
+  background: #fff;
+  width: 450px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  border: 0.5px solid #a5a5a5;
+}
+
+.tl-form form{
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+
+
+.tl-form input{
+  width: 100%;
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
+  padding: 5px 30px;
+  margin-bottom: 10px;
+}
+
+
+
+.photo{
+  float: left;
+}
+
+.photo label{
+  margin-bottom: 0px;
+}
+
+.publicar{
+  float: right;
+}
+
+/* FIN TIMELINE*/
+/****************/
+
+/****************/
+/* PREGUNTAS*/
+
+.p-titulo{
+  border-radius: 10px;
+  color: #5a5d63;
+  background: #fff;
+}
+
+div.card-header{
+  background: #fff;
+    cursor:pointer;
+}
+
+
+.card-header h5 button{
+  color: #000;
+}
+.card-header h5 button:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+/* FIN PREGUNTAS*/
+/****************/
+
+
+/****************/
+/* NOTIFICACIONES*/
+
+.n-item{
+  cursor:pointer;
+  background: #fff;
+  padding: 30px 50px;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+.n-item a {
+  color:#000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* FIN NOTIFICACIONES*/
+/****************/
+
+/****************/
+/* FOOTER*/
+/* FIN FOOTER*/
+/****************/
+
+.post-desc ul li{
+  list-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar{
+    padding: 3;
+  }
+
+  .nav-buscador input {
+    width: 85vw;
+  }
+  .perfil{
+    width: 100%;
+  }
+  .tl-form{
+    width: 90%;
+  }
+
+  .perfil input{
+    width: 80%;
+  }
+
+  .tl-post{
+    margin-left: 0px;
+  }
+
+  .card-header {
+  }
+
+  .card-header h5 button{
+    font-size: 0.7em;
+  }
+}
